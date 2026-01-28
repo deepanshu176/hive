@@ -10,8 +10,9 @@ Complete setup guide for building and running goal-driven agents with the Aden A
 ```
 
 > **Note for Windows Users:**  
-> Running the setup script on native Windows shells (PowerShell / Git Bash) may sometimes fail due to Python App Execution Aliases.  
-> It is **strongly recommended to use WSL (Windows Subsystem for Linux)** for a smoother setup experience.
+> The setup script (`.sh`) cannot be executed directly in **PowerShell** or **Command Prompt**.  
+> Please use **Git Bash (recommended)** or **WSL** to run the script successfully.
+
 
 This will:
 
@@ -55,7 +56,9 @@ python -c "import litellm; print('✓ litellm OK')"
 ```
 
 > **Windows Tip:**  
-> On Windows, if the verification commands fail, ensure you are running them in **WSL** or after **disabling Python App Execution Aliases** in Windows Settings → Apps → App Execution Aliases.
+> If the setup script fails in PowerShell, open **Git Bash** and run the commands from there.  
+> WSL is optional but can provide a Linux-like environment if preferred.
+
 
 ## Requirements
 
